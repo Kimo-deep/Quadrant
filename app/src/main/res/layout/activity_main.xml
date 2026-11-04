@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ln1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="#80000000"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="410dp"
+            android:layout_height="360dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="205dp"
+                android:layout_height="360dp"
+                android:background="#271B13"
+                android:foreground="@android:drawable/divider_horizontal_dim_dark"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="186dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="Web Developer"
+                    android:textColor="#EAD5C8" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:text="Focuses on building and maintaining websites and web applications"
+                    android:textColor="#EAD5C8" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="205dp"
+                android:layout_height="360dp"
+                android:background="#533D31"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="186dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="Mobile App Developer"
+                    android:textColor="#EAD5C8" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:text="Specializes in designing and building applications for mobile devices"
+                    android:textColor="#EAD5C8" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="360dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="206dp"
+                android:layout_height="369dp"
+                android:layout_marginTop="2dp"
+                android:background="#533D31"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="186dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="Data Scientist"
+                    android:textColor="#ead5c8" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:text="Focuses on collecting, analyzing, and interpreting large amounts of data to uncover hidden patterns and help organizations make smart, data-driven decisions"
+                    android:textColor="#ead5c8" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="202dp"
+                android:layout_height="368dp"
+                android:layout_marginTop="3dp"
+                android:background="#271B13"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="186dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="Software Engineer"
+                    android:textColor="#ead5c8" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:text="Applies engineering principles to design, decelop, test, and maintain complex software systems, desktop applications, and backend infrastructure to meet specific user needs"
+                    android:textColor="#ead5c8" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
